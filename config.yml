@@ -1,0 +1,79 @@
+username: rafamolina1
+
+profile:
+  name: Rafael Molina
+  tagline: Junior Software Developer • Web · Mobile · Fullstack
+  company: FGV
+  location: Jaú, São Paulo, Brazil
+  bio: Building scalable web and mobile applications with clean architecture. Co-founder of Autonomus — semifinalist at Rocket (Grupo Globo).
+  philosophy: Architecture before scale problems. Systems thinking over feature thinking.
+
+social:
+  email: rafaelmolinacsgo@gmail.com
+  linkedin: rafael-molina-049a43247
+  website: https://rafamolinadev.vercel.app
+
+# 3 galaxy arms — each represents a focus area
+galaxy_arms:
+  - name: Frontend & Mobile
+    color: synapse_cyan
+    items:
+      - React
+      - Next.js
+      - Flutter
+      - TypeScript
+      - React Native
+      - Tailwind CSS
+
+  - name: Backend
+    color: dendrite_violet
+    items:
+      - Node.js
+      - Laravel
+      - .NET / C#
+      - RESTful APIs
+      - JWT
+      - PHP
+
+  - name: Data & Infra
+    color: axon_amber
+    items:
+      - PostgreSQL
+      - MySQL
+      - Supabase
+      - Firebase
+      - Docker
+      - Prisma
+
+# Featured projects — shown as constellations
+projects:
+  - repo: app-apontamento
+    arm: 0
+    description: Multi-Tenant SaaS for WhatsApp monitoring. Next.js 14, Clerk, Prisma, N8N.
+
+  - repo: KM-De-Lucro
+    arm: 2
+    description: Financial platform for freight drivers. Real-time P&L, PDF/CSV exports. Next.js 15 + Supabase.
+
+  - repo: Market-Pulse
+    arm: 1
+    description: Real-time financial dashboard. Binance WebSocket API, PWA, multi-context React 18.
+
+  - repo: Habit-Breaker
+    arm: 0
+    description: Quit smoking app with AI Coach powered by Groq API. React + Vite.
+
+# Stats to display
+stats:
+  metrics:
+    - commits
+    - stars
+    - prs
+    - repos
+
+# Language display config
+languages:
+  max_display: 6
+  exclude:
+    - HTML
+    - CSS
